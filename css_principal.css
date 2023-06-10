@@ -1,0 +1,81 @@
+body {
+    background-image: linear-gradient(to right, #0E2C5E, #181236 1px);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba( 0, 0, 0, 0.4);
+    padding: 15px;
+    margin-top: -10px;
+    margin-left: -22px;
+    transition: 1.5s;
+}
+
+header:hover {
+    transform: scale(1.1);
+    transition: 1.5s;
+    padding: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    margin-right: 0px;
+    margin-top: -8px;
+}
+
+nav ul li a {
+    display: inline-block;
+    background-color: black;
+    color: #febe6c;
+    font-size: 20px;
+    margin: 5px;
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul li a:hover {
+    color: #fdddb4;
+    transform: scale(1.06);
+    transition: 1s;
+    border: solid #fdddb4;
+}
+
+p#Bienvenido {
+    font-size: 40px;
+    background-image: linear-gradient(to right, #febe6c, #ffa025);
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 5px 5px 10px 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Texto1 {
+    background-color: #181236;
+    border: solid 1px;
+    border-color: #fdddb4;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #fdddb4;
+}
+
+p#Titulo1 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to right, #febe6c, #ffa025);
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+

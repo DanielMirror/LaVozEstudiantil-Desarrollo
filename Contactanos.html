@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link rel="icon" href="Multimedia/Logo1.png">
+    <link rel="stylesheet" href="css_principal.css">
+    <link rel="stylesheet" href="css_Contactanos.css">
+</head>
+<body>
+<!-- Menú de navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Por_que_nosotros.html">¿Por qué nosotros?</a></li>
+                <li><a href="Equipo.html">Equipo</a></li>
+                <li><a href="Contactanos.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <h2>Contacta con nosotros</h2>
+        <form action="mailto:lavozestudiantilpomavid@gmail.com" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <br>
+            <textarea id="mensaje" name="mensaje" rows="5" cols="30" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </main>
+</body>
+</html>
