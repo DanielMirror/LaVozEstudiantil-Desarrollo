@@ -45,7 +45,7 @@ nav ul li a:hover {
     border: solid #fdddb4;
 }
 
-p#Bienvenido {
+p#Texto_fuerte {
     font-size: 40px;
     background-image: linear-gradient(to right, #febe6c, #ffa025);
     -moz-background-clip: text;
